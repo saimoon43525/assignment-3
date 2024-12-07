@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+     <header>
+        <img src="img.jpeg" alt="Profile Photo">
+        <h1>Saimoon Jahan</h1>
+        <p>Bachelor of Science in Mathematics</p>
+        <p>saimoonjahan.bu.200@gmail.com | Phone : 01747275302</p>
+        <p>Address: Department of Mathematics, University of Barishal</p>
+     </header>
+
+     <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+     
+
+<section id="about">
+    <h2>About me </h2>
+    <p>I am a passionate Web Designer with a strong foundation in HTML and CSS, currently enhancing my skills with Bootstrap to create modern, responsive, and user-friendly websites. Alongside my web design journey, I work as a Public Relations Secretary at Barishal University IT Society, developing communication strategies and building meaningful connections. I enjoy combining creativity, technical expertise, and interpersonal skills to deliver impactful results in both design and public relations. My goal is to continually grow as a web designer and contribute to impactful digital projects. </p>
+</section>
+<section id ="skill" class="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5 & CSS3</li>
+        <li>Bootstrap Framework</li>
+        <li>Power Point</li>
+        <li>Microsoft Word</li>
+        <li>Microsoft Excel</li>
+    </ul>
+</section>
+
+<section id="education" class="education">
+    <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Passing Year</th>
+                <th>CGPA</th>
+            </tr> 
+            <tr>
+                <td>BS in Mathematics</td>
+                <td>University of Barishal</td>
+                <td>2022</td>
+                <td>3.25</td>
+            </tr>
+            <tr>
+            <td>Higher Secondary Certificate</td>
+            <td>Fatema Matin Mahila Degree College. </td>
+            <td>2017</td>
+            <td>4.58</td>
+          </tr>
+            
+          <tr>
+          <td>Secondary School Certificate</td>
+          <td>Aminabad Secondary High School. </td>
+          <td>2015</td>
+          <td>5.00</td>
+      </tr>
+
+    </table>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p> &copy; 2024 Saimoon - All Rights Reserved</p>
+    </footer>
+  </div>  
+</body>
+</html>
